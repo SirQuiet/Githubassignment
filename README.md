@@ -3,7 +3,7 @@ _A few quick notes_:
  Links to the zip files will be a part of the header (so below, Assignment 1 leads to the download link for the zip file)
 
 ## [Assignment 1](Lent.zip)
- 
+ ### Requirements:  
 * Create a composition using shapes that could be interpreted to be either an 'outerspace' or 'cityscape' scene.  
 * Create a canvas that is 128 pixels wide by 128 high (at a minimum).  
 * Create a gray background for the canvas with a grayscale color value.  
@@ -21,6 +21,7 @@ _A few quick notes_:
  
 
 ## [Assignment 5](Lent%205.zip)
+ ### Requirements:  
 * Design a composition that is within the theme of either Television or a Desktop Computer.  
 * Create a canvas that is 400 pixels wide by 400 high (at a minimum).  
 * Add a minimum of two buttons, one, a rectangle shape, and the other, a ellipse. Each button should use either the mouseClicked() or mousePressed() functions to measure user input. Creating buttons requires testing the position of the mouse compared to the boundary of the button shape. This is shown in the examples utilizing mouseX and mouseY information covered in Assignment Three.
@@ -45,3 +46,13 @@ _A few quick notes_:
  
 
 ## [Assignment 7](Lent%207.zip)
+ ### Requirements:  
+* Design a composition that is within the theme of either Halloween, Retro Games, or Nature.  
+* Create a canvas that is 400 pixels wide by 400 high (at a minimum).  
+* Create and assign values to an array.  
+* Use the print function to determine the length of an array you created and assigned values to.  
+* Create an array, then assign values to the array using a for loop.  
+* Create motion using values from an array. Using a for loop, draw shapes that include the array value as one of the position values for the shape, creating motion.  
+* Set a value in the array to the a current mouse position value.
+
+ 
