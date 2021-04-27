@@ -25,3 +25,6 @@ _A few quick notes_:
 * Change the style of the stroke on one shape, at a minimum, to round, bevel, or join. (10%)
   * Use strokeJoin() (Links to an external site.) or strokeCap()
  
+## [Assignment 5](Lent 5.zip)
+
+## [Assignment 7](Lent 7.zip)
