@@ -58,7 +58,8 @@ _A few quick notes_:
  As noted in the 3rd point in the requirements, the past few assignments had covered:
   * Colors and ways to implement them (Assigment 2)
   * Creation of general variables, including variables to locate the mouse's position and math variables (Assignment 3)
-  * Use of mouse & keyboard buttons & movement of objects on the canvas (Assignment 4)  
+  * Use of mouse & keyboard buttons & movement of objects on the canvas (Assignment 4)
+ 
  All of these would end up being used in some shape or form in this assignment.  
  Like when incorporating color into the design, I had taken a palette of colors from the Adobe Color site and once I had found out what the RGB color codes were, I implemented them into the separate "channels" that each button would bring you to.  
  Getting the buttons to work properly was also solved by using a formula from previous assignments that would detect when the mouse was hovering over a certain button.  
