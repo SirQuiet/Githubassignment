@@ -35,7 +35,7 @@ _A few quick notes_:
   * if
   * if/else  
 * Incorporate the following design principles in your assignment:
-  * Color, choose a color scheme, work with a palette of colors (maximum of five). 
+  * Color, choose a color scheme, work with a palette of colors (maximum of five).
       The Adobe Color site is a good tool for selecting a group of colors using different systems from color theory.  
   * Alignment, Proximity, Similarity of elements in your composition.
       Use these three principles to group elements together in the visual space.  
