@@ -15,9 +15,9 @@ _A few quick notes_:
 * For all shapes in your composition, use only grayscale values for the stroke (Links to an external site.) and fill (Links to an external site.) colors. (10%)
 
 * For shapes in your composition, create shapes from the four primitive types listed below, for example, create a point and a rectangle: (20%)
- * Point (Links to an external site.)  
- * Line (Links to an external site.)  
- * Ellipse (Links to an external site.)  
+ * Point (Links to an external site.)
+ * Line (Links to an external site.)
+ * Ellipse (Links to an external site.)
  * Rectangle (Links to an external site.)
 
 * Create, at a minimum, one primitive shape with either no stroke (Links to an external site.) or no fill (Links to an external site.). (10%)
