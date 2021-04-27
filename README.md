@@ -17,6 +17,7 @@ _A few quick notes_:
 * Change the style of the stroke on one shape, at a minimum, to round, bevel, or join.
   * _Use strokeJoin() or strokeCap()_
  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  This was our first assignment we had done for the class, and it was fairly simple.  
  For this, I had decided to go with a city skyline, the result being a view of some skyscrapers in the night.
@@ -53,6 +54,8 @@ _A few quick notes_:
    **_Use this design principle to indicate a visual hierarchy. (what is emphasised)._**
  
  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
  Compared to the previous Assignment above, this one had required much more work and thought into making it right.  
  For this assignment, I decided to make a small, boxy, gray TV set and have the buttons effect the screen.
  As noted in the 3rd point in the requirements, the past few assignments had covered:
@@ -78,6 +81,8 @@ _A few quick notes_:
 * Create motion using values from an array. Using a for loop, draw shapes that include the array value as one of the position values for the shape, creating motion.  
 * Set a value in the array to the a current mouse position value.
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  This was definitely a _different_ assignment from the rest I'd worked on previously.  
  For this, I focused on nature. Specifically a rainy sky with clouds floating by and a rainbow in the background.  
