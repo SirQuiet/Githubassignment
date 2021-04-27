@@ -18,7 +18,7 @@ _A few quick notes_:
   * _Use strokeJoin() or strokeCap()_
  
  This was our first assignment we had done for the class, and it was fairly simple.  
- For this, I had decided to go with a city skyline, like a foggy day in a big city.  
+ For this, I had decided to go with a city skyline, the result being a view of some skyscrapers in the night.
  Now I have knowledge prior to this class (Mostly due to having to retake it thanks to a bad semester for me), so I know I could've added color to it, but I decided to keep it simple and stick to the required grayscale colors.  
  To keep everything from blending together, I tried to use various different shades of gray for each building (This also helped give a sense of depth to the image), and all of the lights were pure white to help them stand out.  
  I primarily ended up using the line & rectangle tool to make most of the image, but I made sure to add a point or ellipse in part of the image. The line tool was mostly for the smaller details on the roofs of the buildings.  
@@ -51,6 +51,18 @@ _A few quick notes_:
   * _Scale and Proportion._  
    **_Use this design principle to indicate a visual hierarchy. (what is emphasised)._**
  
+ Compared to the previous Assignment above, this one had required much more work and thought into making it right.  
+ For this assignment, I decided to make a small, boxy, gray TV set and have the buttons effect the screen.
+ As noted in the 3rd point in the requirements, the past few assignments had covered:
+  * Colors and ways to implement them (Assigment 2)
+  * Creation of general variables, including variables to locate the mouse's position and math variables (Assignment 3)
+  * Use of mouse & keyboard buttons & movement of objects on the canvas (Assignment 4)  
+ All of these would end up being used in some shape or form in this assignment.  
+ Like when incorporating color into the design, I had taken a palette of colors from the Adobe Color site and once I had found out what the RGB color codes were, I implemented them into the separate "channels" that each button would bring you to.  
+ Getting the buttons to work properly was also solved by using a formula from previous assignments that would detect when the mouse was hovering over a certain button.  
+ Though creating our own functions would come up in later assignments, things like detecting when the mouse or a key was pressed required their own functions, and I learned how to create some of my own to make everything work.  
+ I primarily used if/else statements to discern what should be on the screen at any given moment. Neither of the channel buttons would produce anything until the TV was turned on (meaning both channels would be false until power was true) and when switching back and forth between channels, I'd set one to false and the other to true to hide anything from the other channel.  
+ Easily the most difficult part of this was getting the channels to properly display what was needed. For a long time, when I pressed a button it would do nothing. It was a fairly simple solution which required a bit of work on the channel functions, but I had been tired when working on it and couldn't focus on the easy fixes at the time.
  
 
 ## [Assignment 7](Lent%207.zip)
@@ -63,4 +75,17 @@ _A few quick notes_:
 * Create motion using values from an array. Using a for loop, draw shapes that include the array value as one of the position values for the shape, creating motion.  
 * Set a value in the array to the a current mouse position value.
 
- 
+ This was definitely a _different_ assignment from the rest I'd worked on previously.  
+ For this, I focused on nature. Specifically a rainy sky with clouds floating by and a rainbow in the background.  
+ Aside from the introduction to arrays (which function a lot like a package of variables), I also had been working on different ways of creating my variables and code.  
+ I had been getting help from a friend for this one. They would give me simple examples and such to follow, but the way they made things was different than what I (and seemingly the rest of the class) had been doing.  
+ I however just followed these examples to the dot because I had feared I'd mess up the code if I tried to convert it to what we typically use in this class.  
+ Despite this, I still did my best to try and do things as I had in previous assignments.  
+ Starting off, I used a for loop in the setup to create exactly 8 clouds on the canvas. when one went off screen, another one would spawn in to bring the number back up to 8.  
+ These cloud structures came from a function near the bottom, which not only created the cloud shape, but also made the clouds move left to right, as well as randomly bob up & down.  
+ For the raindrops, I had to figure out how to create a class in p5.js. Doing so made some of the later steps take up less lines of code & made it easier to program.  
+ The class determined a random point anywhere on the canvas in which the raindrop could spawn, made it move straight down, and deleted it once it got off the canvas.  
+ Later on, I used this same class in a draw function which would create a random amount of raindrops (from 0 to 5) anywhere on the canvas every time the function was called.  
+ Since this function is being called constantly, it spawns in raindrops as fast as the canvas updates (default is 60fps I believe).  
+ Finally for the rainbow, I started by setting certain color variables to a specific RGB color, then promptly put those variables into an array.  
+ After this, I used a for loop to create several arcs, one for each color. Each of these had their alpha set to 50 so they would be partially transparent.  
