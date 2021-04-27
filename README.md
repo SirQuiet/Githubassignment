@@ -17,7 +17,14 @@ _A few quick notes_:
 * Change the style of the stroke on one shape, at a minimum, to round, bevel, or join.
   * _Use strokeJoin() or strokeCap()_
  
- This was our first assignment we had done for the class, and it started off fairly simple.  
+ This was our first assignment we had done for the class, and it was fairly simple.
+ For this, I had decided to go with a city skyline, like a foggy day in a big city.
+ Now I have knowledge prior to this class (Mostly due to having to retake it thanks to a bad semester for me), so I know I could've added color to it, but I decided to keep it simple and stick to the required grayscale colors.
+ To keep everything from blending together, I tried to use various different shades of gray for each building (This also helped give a sense of depth to the image), and all of the lights were pure white to help them stand out.
+ I primarily ended up using the line & rectangle tool to make most of the image, but I made sure to add a point or ellipse in part of the image. The line tool was mostly for the smaller details on the roofs of the buildings.
+ The only issue I had came across was the fact that I forgot to incorporate the last point of the requirements. I must've skimmed the assignment and missed that point.
+ And here's what the code in the zip file produces (The final product)!
+ ![Cityscape](download.png)
  
 
 ## [Assignment 5](Lent%205.zip)
