@@ -23,6 +23,5 @@ _A few quick notes_:
 * Create, at a minimum, one primitive shape with either no stroke (Links to an external site.) or no fill (Links to an external site.). (10%)
 
 * Change the style of the stroke on one shape, at a minimum, to round, bevel, or join. (10%)
-
-   Use strokeJoin() (Links to an external site.) or strokeCap()
+  * Use strokeJoin() (Links to an external site.) or strokeCap()
  
